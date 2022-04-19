@@ -1,0 +1,44 @@
+After importing Mockito core into maven.
+
+import statis org.mockito.mockito.spy;
+
+class c= spy(class.class)
+
+@Mock  impl lcass. 
+
+Mockito.when(emp.fetch(mocktio.anyint()).thenReturn(getemployeecust());
+
+
+1.on class -> @TestInstance(value=Lifecycle.PER_CLASS)
+
+@BeforeAll ->for setup()  {MockitoAnnotations.openMocks(this);}
+
+@Spy for implementing class or Arrays  -> test as add and assert statements.
+
+2. @ExtendsWith(value={MockitoExtension.class}) which spys and mockitos activates.
+
+//Stubbing spy
+Mockito.doReturn(40).when(spymyList).size(); and asserts
+
+----------------------------------------------------
+@Captor
+
+ArugumentCaptor<String> a = ArgumentCaptop.forClass(String.class);
+verify(list).add(a.cpature());
+assertEquals("kk",a.getvalue());
+
+
+or @ExtendsWith(value={MockitoExtension.class})
+@Captor private ArugumentCaptor<String> a;
+-----------------------------------------------
+
+@InjectMocks implements class  (only impl class)  if you are using for interface then instance on interface then it works.
+
+@Mock with in inject mock  (Interface/class)
+
+when and then  and assert equals you can do
+---------------------------------------
+
+mockito junit   mockito junit jupiter.. 
+
+
